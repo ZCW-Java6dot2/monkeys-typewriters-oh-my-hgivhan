@@ -19,3 +19,5 @@ public abstract class Copier implements Runnable {
 
     public abstract void run();
 }
+//whenever you put a thread to sleep, it means do nothing
+// int time; in class. time = r.nextInt(999); <-- milliseconds, random time is 0-1sec
